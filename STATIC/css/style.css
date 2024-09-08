@@ -1,0 +1,10 @@
+/* fonts css */ 
+	@import url("../fonts/fonts.css");
+/* rest css */ 
+	@import url("reset.css");
+/* library lib css */
+	@import url("../lib/swiper/swiper-bundle.min.css");
+/* base layour css */ 
+	@import url("common.css");
+
+

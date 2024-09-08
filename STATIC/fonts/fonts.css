@@ -1,0 +1,10 @@
+@import url("NotoSansKR/NotoSansKR.css");
+:root {
+	--font-family : 'NotoSansKR';
+}
+* { 
+	font-family: var(--font-family);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smooth: never; 
+}
