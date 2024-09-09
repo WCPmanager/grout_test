@@ -1,4 +1,5 @@
 let vh = window.innerHeight * 0.01;
+document.oncontextmenu = function(){return false;}
 document.documentElement.style.setProperty('--vh', vh + 'px');
 window.addEventListener('resize', () => {
     let vh = window.innerHeight * 0.01;
